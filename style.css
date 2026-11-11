@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    color: #2d3436;
+    text-align: center;
+    margin: 0;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.container {
+    background: white;
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #0984e3;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.score-box {
+    background: #dfe6e9;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.choice-btn {
+    background: #f1f2f6;
+    border: 2px solid #b2bec3;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-btn:hover {
+    background: #dfe6e9;
+    transform: scale(1.1);
+    border-color: #0984e3;
+}
+
+.results {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    min-height: 60px;
+}
+
+.result-message {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.win { color: #00b894; }
+.lose { color: #d63031; }
+.tie { color: #fdcb6e; }
+
+.reset-btn {
+    background: #0984e3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.reset-btn:hover {
+    background: #74b9ff;
+}
